@@ -1,0 +1,2 @@
+# YNWebDetail
+Web Local 
