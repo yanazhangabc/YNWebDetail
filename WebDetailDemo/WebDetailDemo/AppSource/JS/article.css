@@ -1,0 +1,286 @@
+
+.pic,
+.video {
+  margin-bottom: 10px;
+}
+
+/*文字*/
+p {
+  font-size: 15px;
+  color: rgba(0, 0, 0, 1);
+  line-height: 26px;
+  word-wrap: break-word;
+  padding-bottom: 10px;
+}
+
+/*商品链接*/
+.goods {
+  width: 100%;
+  height: 21.867vw;
+  padding: 2vw;
+  display: flex;
+  background: #f9f9f9;
+  border-radius: 8px;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.goods img {
+  width: 17.867vw;
+  height: 17.867vw;
+  background: rgba(255, 255, 255, 1);
+  border-radius: 10px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  object-fit: cover;
+}
+
+.goods .box-right {
+  width: 55%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 1.2vw;
+  padding-left: 2.67vw;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.goods .box-right .title {
+  font-size: 14px;
+  width: 100%;
+  height: 19px;
+  line-height: 19px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: bold;
+  color: rgba(51, 51, 51, 1);
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  margin: 0;
+}
+
+.goods .box-right .price {
+  display: flex;
+  align-items: center;
+}
+
+.goods .box-right .now {
+  vertical-align: middle;
+  font-size: 16px;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+  color: rgba(245, 90, 90, 1);
+  display: inline-block;
+  margin: 0;
+}
+
+.goods .box-right .past {
+  vertical-align: middle;
+  font-size: 12px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: rgba(153, 153, 153, 1);
+  line-height: 15px;
+  margin: 0;
+  margin-left: 5px;
+  display: inline-block;
+  text-decoration: line-through;
+}
+
+/*圈子链接*/
+.groups {
+  width: 100%;
+  height: 21.867vw;
+  padding: 2vw;
+  display: flex;
+  background: #f9f9f9;
+  border-radius: 8px;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.groups img {
+  width: 17.867vw;
+  height: 17.867vw;
+  background: rgba(255, 255, 255, 1);
+  border-radius: 7px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  object-fit: cover;
+}
+
+.groups .box-right {
+  width: 55%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 2.67vw;
+  padding-bottom: 1.67vw;
+  padding-left: 2.67vw;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.groups .box-right .title {
+  font-size: 14px;
+  width: 100%;
+  height: 19px;
+  line-height: 19px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: bold;
+  color: rgba(51, 51, 51, 1);
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  margin: 0;
+}
+
+.groups .box-right .sign {
+  vertical-align: middle;
+  font-size: 13px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #666666;
+  line-height: 15px;
+  //margin-left: 10px;
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: 19px;
+  width: 100%;
+}
+
+/*帖子链接*/
+.article {
+  width: 100%;
+  height: 21.867vw;
+  padding: 4.267vw 2vw;
+  display: flex;
+  background: #f9f9f9;
+  border-radius: 8px;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.article img {
+  width: 13.333vw;
+  height: 13.333vw;
+  background: rgba(255, 255, 255, 1);
+  border-radius: 50%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  object-fit: cover;
+}
+
+.article .box-right {
+  width: 63%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 0.9vw;
+  padding-left: 2.67vw;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.article .box-right .title {
+  font-size: 14px;
+  width: 100%;
+  height: 20px;
+  line-height: 20px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: bold;
+  color: rgba(51, 51, 51, 1);
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  margin: 0;
+}
+
+.article .box-right .sign {
+  vertical-align: middle;
+  font-size: 13px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #666666;
+  line-height: 15px;
+  display: inline-block;
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: 19px;
+  width: 100%;
+}
+
+.pic {
+  width: 100%;
+  height: auto;
+}
+
+.video {
+  background: black;
+  object-fit: cover;
+  object-position: 50% 50%;
+  width: 100%;
+  height: 70vw;
+  position: relative;
+}
+
+.video .tcplayer {
+  position: relative;
+  width: 100%;
+  height: 70vw;
+}
+
+.video .poster-box {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  width: 100%;
+  //height: 70vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.poster-box .poster {
+  display: block;
+  width: 100%;
+  height: 70vw;
+  object-fit: cover;
+  object-position: 50% 50%;
+  margin: 0;
+}
+
+.poster-box .playbtn {
+  content: url(https://h5.meetao.com/h5/playbtn.png);
+  position: absolute;
+  width: 13vw;
+  height: 13vw;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+}
+
+.goods,
+.groups,
+.article {
+  margin-bottom: 10px;
+}
